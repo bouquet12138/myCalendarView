@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyCalendarView">
+        <attr name="titleSize" format="dimension" /><!--标题栏文字大小-->
+        <attr name="titleColor" format="color" /><!--标题栏文字颜色-->
+
+        <attr name="daySize" format="dimension" /><!--日期文字大小-->
+        <attr name="dayColor" format="color" /><!--日期文字颜色-->
+
+
+        <attr name="spaceY" format="dimension" /><!--间距-->
+
+        <attr name="drawLunar" format="boolean" /><!--是否绘制阴历-->
+        <attr name="lunarSize" format="dimension" /><!--阴历文字大小-->
+        <attr name="lunarColor" format="color" /><!--阴历文字颜色-->
+
+        <attr name="legalColor" format="color" /><!--法定节假日的颜色-->
+
+        <attr name="todayCircleColor" format="color" /><!--今天那个圆的颜色-->
+        <attr name="todayTextColor" format="color" /><!--今天文本的颜色-->
+        <attr name="todayCircleRadius" format="dimension" /><!--今天那个圆的半径-->
+
+        <attr name="selectedTextColor" format="color" /><!--选中的文字颜色-->
+        <attr name="selectedBackColor" format="color" /><!--选中的背景色-->
+
+    </declare-styleable>
+
+</resources>
